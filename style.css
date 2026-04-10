@@ -1,0 +1,105 @@
+        body {
+            margin: 100px;
+            /* background-image: url(Building_img.jpeg) ; */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100ch;
+            
+        }
+        .navbar {
+            position: absolute;
+            padding: 0%;
+            position-anchor: inherit;
+            top:0px ;
+            width: 100%;
+            border-top: #d55454;
+            border: #bed576;
+        }
+        
+
+        .navbar ul {
+            list-style-type:none;
+            margin: 0px;
+            padding: 10px;
+            overflow: hidden;
+            background-color: #102bc7e0;
+            display:flex;
+            justify-content: flex;
+        }
+
+        .navbar li a {
+            display: block;
+            color:wheat;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            background-color: rgb(241, 150, 59);
+            color: yellow;
+        }
+
+        
+
+        .container {
+            width: fit-content;
+            
+            text-align: center;
+        }
+
+        .title {
+            background: rgb(31, 6, 192);
+            padding: 15px;
+            font-size: 32px;
+            font-weight: bold;
+            border-radius: 40px;
+            width: 300px;
+            margin: 0 auto 20px auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgb(250, 39, 39);
+        }
+
+        th, td {
+            border: 2px solid rgb(6, 1, 35);
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #e0d42bdf;
+            font-weight: bold;
+        }
+
+        /* Row Colors */
+        .monday {
+            background-color: #96c8e7;
+        }
+
+        .tuesday {
+            background-color: #4db8ff;
+            color: white;
+        }
+
+        .wednesday {
+            background-color: #bed576;
+        }
+
+        .thursday {
+            background-color: #ffd6cc;
+        }
+
+        .friday {
+            background-color: #6fa8ff;
+            color: white;
+        }
